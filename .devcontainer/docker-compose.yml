@@ -2,6 +2,8 @@ version: '3'
 services:
   devcontainer:
     build:
-      context: ../
-      dockerfile: .devcontainer/Dockerfile
+      context: .
+      dockerfile: Dockerfile
     command: sleep infinity
+    volumes:
+      - ..:/workspace

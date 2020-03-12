@@ -4,6 +4,7 @@
 	// "dockerFile": "Dockerfile",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "devcontainer",
+	"workspaceFolder" : "/workspace",
 
 	// Use 'settings' to set *default* container specific settings.json values on container create. 
 	// You can edit these settings after create using File > Preferences > Settings > Remote.
